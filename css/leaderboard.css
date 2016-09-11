@@ -1,0 +1,71 @@
+
+.points:before{
+    content: " ---------------------------- ";
+}
+nav{
+
+    width: 40%;
+    height: 50%;
+    text-align: center;
+    margin: auto;
+    margin-top: 2%;
+    position: absolute;
+    top: 25%;
+    left: 30%;
+
+
+}
+
+
+p{
+    font-size: 2vw;
+    margin: inherit;
+    display: inline;
+}
+
+header{
+    margin-top: 5%;
+    text-align: center;
+    font-size: 4vw;
+    font-style: bold;
+}
+
+#back{
+
+    margin-left: 10vh;
+    float: left;
+    margin-top: 70vh;
+    width: 7%;
+    height: 5vh;
+    
+    border: 0;
+    cursor: pointer;
+}
+
+#user{
+    font-weight: bold;
+	visibility: hidden;
+	margin-top: 2vw;
+	width: 15vw;
+	height: 3vw;
+	text-align: center;
+}
+
+#warning{
+    font-weight: bold;
+	visibility: hidden;
+	display: block;
+	text-align: center;
+	font-size: 2vw;
+	color: #FF0000;
+}
+
+#submit{
+	visibility: hidden;
+	height: 3vw;
+	text-align: center;
+}
+
+body{
+    background-color: #cacaca;
+}

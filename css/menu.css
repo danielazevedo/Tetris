@@ -1,0 +1,75 @@
+header{
+	text-align:center;
+	font-size:250%;
+  color: #000000;
+}
+
+
+nav{
+	margin-top: 10%;
+}
+body{
+  background-color: #cacaca;
+}
+
+button{
+	
+	width: 25vw;
+	height: 10vh;
+    border: 7px solid black;
+	cursor: pointer;
+}
+.pulse{
+	
+	background-color: #F0F0F0;
+    color: black;
+    display: block;
+    margin: auto;
+    margin-bottom: 3%;
+
+  
+  }
+
+
+
+  @-webkit-keyframes pulse {
+  25% {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+  75% {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+}
+
+@keyframes pulse {
+  25% {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+  75% {
+    -webkit-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+}
+
+.pulse {
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+
+.pulse:hover {
+  -webkit-animation-name: pulse;
+  animation-name: pulse;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+}
